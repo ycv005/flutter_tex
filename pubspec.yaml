@@ -12,7 +12,10 @@ environment:
 
 
 dependencies:
-  webview_flutter_plus: ^0.3.0+2
+  webview_flutter_plus:
+    git:
+      url: https://github.com/ycv005/webview_flutter_plus
+      ref: master
   markdown: ^4.0.1
 
   flutter:
